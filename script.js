@@ -40,7 +40,7 @@ function rockPick() {
   document
     .querySelector(".player.shake")
     .addEventListener("animationend", computerDecide);
-  document.querySelector.addEventListener("animationend", computerDecide());
+  computerDecide();
 }
 
 function paperPick() {
@@ -53,7 +53,7 @@ function paperPick() {
   document
     .querySelector(".player.shake")
     .addEventListener("animationend", computerDecide);
-  document.querySelector.addEventListener("animationend", computerDecide());
+  computerDecide();
 }
 
 function scissorsPick() {
@@ -66,7 +66,7 @@ function scissorsPick() {
   document
     .querySelector(".player.shake")
     .addEventListener("animationend", computerDecide);
-  document.querySelector.addEventListener("animationend", computerDecide());
+  computerDecide();
 }
 
 let computer = "";
